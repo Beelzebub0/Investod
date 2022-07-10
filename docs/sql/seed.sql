@@ -1,8 +1,8 @@
 INSERT INTO `user`
-(`id`, `age`, `name`, `job`)
+(`id`, `age`, `username`, `password`, `full_name`, `job`)
 VALUES
-(1, 20, 'Ted', 'SJW'),
-(2, 25, 'Sebastian', 'Keyboard Warrior');
+(1, 20, 'teddy', 'test1abc', 'Teddy', 'SJW'),
+(2, 25, 'sebastian', 'test2abc', 'Sebastian', 'Keyboard Warrior');
 
 INSERT INTO `transaction`
 (`id`, `fk_category_id`, `fk_user_id`, `amount`, `name`)
